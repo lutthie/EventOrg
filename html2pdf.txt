@@ -1,0 +1,18 @@
+-- Descargar HTML2PDF --
+1. https://getcomposer.org/download/ *Descargar .exe y seguir comandos
+2. Abrir una consola
+   >componser --version
+   >cd C:\xampp\htdocs\EventOrg\panel *Carpeta donde esté el proyecto
+3. En la ubicación del cd hacemos un archivo llamado "composer.json"
+   contenido:
+   {
+       "require":{
+	   "spipu/html2pdf": "5.*"
+	}
+   }
+4. En la consola
+   >composer install
+-- * Instalar mas fuentes * --
+1. Buscar una fuente y convertirla
+   convertidor: https://www.xml-convert.com/ttftopdf/getfiles/id/118082/uniqueid/200348375f97ad33484c2
+2. Pegar los 3 archivos en \vendor\tecnickcom\tcpdf\fonts
